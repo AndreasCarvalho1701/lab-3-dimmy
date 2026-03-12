@@ -144,5 +144,5 @@ Antes de executar, é necessário ter instalado:
 Se estiver usando Git:
 
 ```bash
-git clone <url-do-repositorio>
+git clone https://github.com/AndreasCarvalho1701/lab-3-dimmy
 cd lab-3-dimmy
