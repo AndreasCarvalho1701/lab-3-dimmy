@@ -146,3 +146,27 @@ Se estiver usando Git:
 ```bash
 git clone https://github.com/AndreasCarvalho1701/lab-3-dimmy
 cd lab-3-dimmy
+
+## Uso de Inteligência Artificial
+
+Durante o desenvolvimento deste laboratório, foi utilizada assistência de **IA generativa (ChatGPT)** de forma complementar.
+
+A ferramenta foi utilizada principalmente para:
+
+- esclarecimento de dúvidas conceituais sobre o funcionamento do Decoder e dos mecanismos de atenção do Transformer
+- auxílio em algumas partes da lógica de implementação
+- apoio na construção e organização de algumas funções do código
+
+Toda a implementação foi revisada, compreendida e ajustada manualmente durante o desenvolvimento do projeto.
+
+---
+
+## Conclusão
+
+Este laboratório demonstra na prática três componentes fundamentais do funcionamento do **Decoder em arquiteturas Transformer**:
+
+- **Máscara Causal**, que impede que o modelo acesse informações futuras durante o processamento
+- **Cross-Attention**, que permite ao Decoder acessar e utilizar as representações produzidas pelo Encoder
+- **Geração Auto-Regressiva**, onde o modelo gera a sequência de saída token por token
+
+A implementação permite observar o fluxo interno do Decoder e compreender como a geração de texto ocorre em modelos baseados na arquitetura Transformer, utilizando **Python e NumPy** com foco didático e estrutural.
